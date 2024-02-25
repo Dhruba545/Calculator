@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>       <!--This is the end daisy UI site-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> <!--This is the end of Roboto font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"><!--This is the italick font-->
+    <script src="https://kit.fontawesome.com/4c9c4ba039.js" crossorigin="anonymous"></script><!--This is the font awesome script link-->
+    <style>
+        .click:active{
+            background-color: #FF3333;
+        }
+      *{
+        font-family: "Italianno", cursive;
+        font-weight: 350;
+      }
+     .font-roboto{
+        font-family: "Roboto", sans-serif;
+     }
+    </style>
+</head>
+<body>
+    <div class="w-screen h-screen bg-[#F2F3F4] flex">
+        <div class="w-[73%] h-screen bg-green-100">
+            <div class="w-[100%] h-1/3 bg-green-200 flex flex-col"></div>
+            <div class="w-full h-2/3 space-y-1 bg-[#F0F3F4] ">
+                <div class="w-[100%] flex h-1/6  space-x-1">
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click">%</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click">CE</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click">C</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click font-roboto">x</div>
+                </div>
+                <div class="w-[100%] flex h-1/6 space-x-1">
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">1/x</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">x<sup>2</sup></div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click "><sup>2</sup><i class="fa-solid fa-square-root-variable"></i></div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">/</div>
+                </div>
+                <div class="w-[100%] flex h-1/6  space-x-1">
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">7</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">8</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">9</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click font-roboto ">X</div>
+                </div>
+                <div class="w-[100%] flex h-1/6  space-x-1">
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">4</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">5</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">6</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">-</div>
+                </div>
+                <div class="w-[100%] flex h-1/6 space-x-1">
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">1</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">2</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">3</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click ">+</div>
+                </div>
+                <div class="w-[100%] flex h-1/6 space-x-1">
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click">+/-</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click">0</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click">.</div>
+                    <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click">=</div>
+                </div>
+            </div>
+        </div>
+        <div class="w-[27%] h-full bg-red-100"></div>
+    </div>
+</body>
+</html>
