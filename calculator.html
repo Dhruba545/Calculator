@@ -28,8 +28,12 @@
 </head>
 <body>
     <div class="w-screen h-screen bg-[#F2F3F4] flex">
-        <div class="w-[73%] h-screen bg-green-100">
-            <div class="w-[100%] h-1/3 bg-green-200 flex flex-col"></div>
+        <div class="w-[73%] h-full bg-green-100">
+            <div class="w-[100%] h-1/3 bg-green-200 flex flex-col justify-end ">
+                <div class="w-2/5 h-10 flex justify-between items-center mx-2 text-[12px] font-roboto">
+                    <p class="opacity-60">MC</p><p class="opacity-60">MR</p><p>M+</p><p>M-</p><p>MS</p>
+                </div>
+            </div>
             <div class="w-full h-2/3 space-y-1 bg-[#F0F3F4] ">
                 <div class="w-[100%] flex h-1/6  space-x-1">
                     <div class=" w-[25%] h-full bg-white border-[1px] shadow-lg rounded-md flex justify-center items-center click">%</div>
@@ -69,7 +73,11 @@
                 </div>
             </div>
         </div>
-        <div class="w-[27%] h-full bg-red-100"></div>
+        <div class="w-[27%] h-full bg-red-100">
+            <ul id="result">
+
+            </ul>
+        </div>
     </div>
 </body>
 </html>
